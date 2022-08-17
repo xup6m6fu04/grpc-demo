@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package poker;
+option go_package = "proto/grpc-demo";
+
+message GetNutsRequest {
+    repeated string hand = 1; // 手牌
+    repeated string river = 2; // 公共牌
+}
+
+message GetNutsResponse {
+    string card = 1; // 最強手牌
+}
+
+service Poker {
+    rpc GetNuts(GetNutsRequest) returns (GetNutsResponse);
+}
