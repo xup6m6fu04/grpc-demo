@@ -7,7 +7,7 @@
 
 ### 運行方式
 1. `go run server.go`<br><img height="600" src="image/server.png" width="800"/>
-2. 使用 BloomRPC 或其他工具測試<br><img height="550" src="image/bloom.png" width="780"/>
+2. 使用 [BloomRPC](https://github.com/bloomrpc/bloomrpc)，先匯入 proto 檔，就可以運行測試。<br><img height="550" src="image/bloom.png" width="780"/>
 
 ### 參考資料
 https://grpc.io/docs/languages/go/quickstart/ <br>
