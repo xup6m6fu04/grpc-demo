@@ -1,6 +1,8 @@
 ## grpc-demo
 
-### 說明
+## [Medium](https://yulinchou.medium.com/2022-%E7%94%A8-golang-%E5%AF%A6%E4%BD%9C%E7%B0%A1%E6%98%93-grpc-server-88dadeac8a3d)
+
+### 簡易說明
 實作一個可以透過 grpc 的方式進行資料交換的伺服器。<br>
 範例的內容為德州撲克的規則，依照輸入的撲克牌類型，回覆對應的牌型。<br>
 如果對於德州撲克轉換或是勝率有興趣也可以參考我另一個專案 [poker-hand-evaluator](https://github.com/xup6m6fu04/poker-hand-evaluator)
